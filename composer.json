@@ -20,11 +20,6 @@
             "email": "gaba93@windowslive.com"
         }
     ],
-    "source": {
-        "url": "https://github.com/Gaba93/laravel-menu-updated.git",
-        "type": "git",
-        "reference": "master"
-    },
     "autoload": {
 
         "psr-0": {
