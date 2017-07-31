@@ -1,15 +1,7 @@
 {
     "name": "gaba93/laravel-menu-updated",
     "description": "Laravel 5.5 Menu generator",
-    "keywords": [
-        "laravel"
-    ],
-    "homepage": "https://github.com/Gaba93/laravel-menu-updated",
     "authors": [
-        {
-            "name": "Lavary",
-            "email": "mrl.8081@gmail.com"
-        },
         {
             "name": "Gaba93",
             "email": "gaba93@windowslive.com"
