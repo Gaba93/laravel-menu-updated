@@ -1,18 +1,13 @@
 {
     "name": "gaba93/laravel-menu-updated",
     "description": "Laravel 5.5 Menu generator",
-    "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": ">=5.0",
-        "illuminate/view": ">=5.0"
-    },
     "keywords": [
         "laravel"
     ],
-    "license": "MIT",
+    "homepage": "https://github.com/Gaba93/laravel-menu-updated",
     "authors": [
         {
-            "name": "lavary",
+            "name": "Lavary",
             "email": "mrl.8081@gmail.com"
         },
         {
@@ -20,10 +15,16 @@
             "email": "gaba93@windowslive.com"
         }
     ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": ">=5.0",
+        "illuminate/view": ">=5.0"
+    },
     "autoload": {
 
         "psr-0": {
-            "Gaba93\\Menu\\": "src/"
+            "Lavary\\Menu\\": "src/"
         }
     },
     "minimum-stability": "dev"
