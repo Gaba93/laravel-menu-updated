@@ -16,16 +16,10 @@
         }
     ],
     "license": "MIT",
-    "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "dev-master",
-        "illuminate/view": "dev-master"
-    },
     "autoload": {
 
         "psr-0": {
             "Lavary\\Menu\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
