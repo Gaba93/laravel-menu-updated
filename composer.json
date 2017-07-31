@@ -18,8 +18,8 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "*",
-        "illuminate/view": "*"
+        "illuminate/support": "dev-master",
+        "illuminate/view": "dev-master"
     },
     "autoload": {
 
