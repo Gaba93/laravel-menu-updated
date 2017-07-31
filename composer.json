@@ -1,0 +1,26 @@
+{
+    "name": "gfenesi/laravel-menu",
+    "description": "Laravel 5.5 Menu generator",
+    "type": "composer-plugin",
+    "require": {
+        "illuminate/support": "5.0",
+        "illuminate/view": "5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lavary",
+            "email": "mrl.8081@gmail.com"
+        },
+        {
+            "name": "Gaba93",
+            "email": "gaba93@windowslive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "source": {
+        "url": "https://github.com/Gaba93/laravel-menu.git",
+        "type": "git",
+        "reference": "CustomMenuBuilder"
+    }
+}
