@@ -1,12 +1,14 @@
 {
-    "name": "gaba93/laravel-menu",
+    "name": "gaba93/laravel-menu-updated",
     "description": "Laravel 5.5 Menu generator",
-    "type": "composer-plugin",
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": ">=5.0",
         "illuminate/view": ">=5.0"
     },
+    "keywords": [
+        "laravel"
+    ],
     "license": "MIT",
     "authors": [
         {
