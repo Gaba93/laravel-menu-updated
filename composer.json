@@ -1,5 +1,5 @@
 {
-    "name": "Gaba93/laravel-menu",
+    "name": "gaba93/laravel-menu",
     "description": "Laravel 5.5 Menu generator",
     "type": "composer-plugin",
     "require": {
