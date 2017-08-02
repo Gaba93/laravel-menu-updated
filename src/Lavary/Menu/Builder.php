@@ -91,7 +91,6 @@ class Builder {
             }
 
         }
-        print count($coll);
         return $coll;
     }
 
