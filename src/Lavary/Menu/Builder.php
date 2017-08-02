@@ -72,6 +72,29 @@ class Builder {
 		return $item;
 	}
 
+
+    /**
+    * Returns items in right order
+    *
+    * @return \Illuminate\Support\Collection
+    */
+    public function pullItems()
+    {
+        $base = $this->whereParent();
+        $coll = new Collection();
+        for($i=0;$i <count($base); $i++){
+            $coll->push($base[$i]);
+            if($base[$i]->hasChildren()){
+                foreach ($base[$i]->children() as $child){
+                    $coll->push($child);
+                }
+            }
+
+        }
+        print count($coll);
+        return $coll;
+    }
+
 	/**
 	 * Generate an integer identifier for each new item
 	 *
